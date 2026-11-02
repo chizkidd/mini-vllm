@@ -93,7 +93,6 @@ Every notebook proves its change correct first (same tokens as the stage before,
 ├── docs/                              # one write-up per stage, docs/code.md, and docs/exercises.md 
 ├── 01_..11_*.ipynb                    # one notebook per stage
 ├── 99_vllm_compare.ipynb              # appendix: vLLM, the engine's server and Hugging Face on the same traces (not a stage)
-├── pyproject.toml                     # package metadata and the `minivllm-server` command
 ├── minivllm/                          # the engine: model, KV caches, schedulers, block allocator, speculative decoding, quantization, the CUDA-graph, and LLMEngine 
 ├── bench/                             # workloads, metrics, plots, roofline, publish, the open-loop load generator and the vLLM runner
 └── results/                           # stage*.json and plots
